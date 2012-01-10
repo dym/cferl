@@ -1,0 +1,16 @@
+Source: cferl
+Section: unknown
+Priority: extra
+Maintainer: Dmitriy Budashny <dmitriy.budashny@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), git, erlang-base, rebar, ibrowse
+Standards-Version: 3.9.2
+Homepage: https://github.com/ddossot/cferl
+#Vcs-Git: git://git.debian.org/collab-maint/cferl.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/cferl.git;a=summary
+
+Package: cferl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Rackspace Cloud Files Erlang Client
+ cferl is an Erlang interface into the Rackspace Cloud Files service.
+ It has been largely inspired by the existing Ruby API.

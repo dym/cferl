@@ -1,0 +1,3 @@
+ebin/ usr/lib/erlang/lib/cferl/
+include/ usr/lib/erlang/lib/cferl/
+doc/ usr/lib/erlang/lib/cferl/
